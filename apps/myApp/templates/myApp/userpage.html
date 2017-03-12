@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<title>User Page | Favorites and My Closet</title>
+</head>
+<body>
+	<div class="header">
+		<h1>THis is the user's page</h1>
+
+		<form action="/homePage" method="get">
+			<button>home</button>
+		</form>
+		<form action="/cart" method="get">
+			<button>my cart</button>
+		</form>
+	</div>
+
+	<div class="favorites">
+		<h2>Favorites:</h2>
+		<img src="http://placekitten.com/200/300">
+		<img src="http://placekitten.com/200/300">
+		<img src="http://placekitten.com/200/300">
+	
+		<form action="/match" method="get">
+			<button>matches</button>
+		</form>
+	</div>
+
+	<div class="closest">
+		<h2>My Closet:</h2>
+		<img src="http://placekitten.com/200/300">
+		<img src="http://placekitten.com/200/300">
+		<img src="http://placekitten.com/200/300">
+		<form action="/addDress" method="get">
+			<button>add</button>
+		</form>
+	</div>
+</body>
+</html>
